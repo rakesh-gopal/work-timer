@@ -1,0 +1,22 @@
+{
+  "name": "Work Timer",
+  "version": "1.0.0",
+  "description": "Work/Rest RSI timer base on Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/rakesh-gopal/work-timer",
+  "keywords": [
+    "Electron",
+    "work",
+    "timer",
+    "RSI",
+    "break"
+  ],
+  "author": "Rakesh P Gopal",
+  "license": "MIT License",
+  "devDependencies": {
+    "electron": "^3.0.4"
+  }
+}
