@@ -8,7 +8,7 @@ const {
 const path = require('path');
 
 try {
-    conf = require('fs').readFileSync(path.join(require('os').homedir(), '.workrave'), 'utf8');
+    conf = require('fs').readFileSync(path.join(require('os').homedir(), '.worktimer'), 'utf8');
     conf = JSON.parse(conf);
 } catch (exception) {
     conf = {};
