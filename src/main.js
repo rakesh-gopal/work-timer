@@ -113,6 +113,7 @@ function createWindow() {
     app_tray.setContextMenu(tray_menu);
 
     function reset_timer() {
+        mainWindow.hide();
         mode = 'work';
         mode_start_time = new Date();
         mode_end_time = new Date(mode_start_time.getTime() + WORK_TIME_SECS * 1000);
