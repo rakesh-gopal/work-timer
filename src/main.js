@@ -192,8 +192,8 @@ function createWindow() {
                 reset_timer();
             } else if (time_diff > BREAK_TIME_SECS / 1.2 * 1000) {
                 mini_reset();
-            } else {
-                add_to_mode_end_time(time_diff * 2 / 1000);
+            } else if (time_diff > 10000) {
+                add_to_mode_end_time(time_diff * 2.1 / 1000);
             }
         }
         if (mode != 'paused') {
